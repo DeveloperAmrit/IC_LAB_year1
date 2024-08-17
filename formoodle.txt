@@ -1,3 +1,4 @@
+// To enable pasting :)
 // Paste this whole code in console and press enter
 // sometimes may ask to type "allow paste" in console, do that and press enter then paste this and press enter
 
