@@ -1,23 +1,15 @@
 #include<stdio.h>
 
-int main(void)
-{
-    findTheNumber();
-    return 0;
-}
-
-int findTheNumber(){
-    float a,b,sum,diff;
+int main(void) {
     
-    printf("Enter the sum \n");
-    scanf("%f",&sum);
-
-    printf("Enter the difference \n");
-    scanf("%f",&diff);
-
+    int a,b,sum,diff;
+    
+    scanf("%d %d",&sum,&diff);
+    
     a = (sum+diff)/2;
     b = (sum-diff)/2;
     
-    printf("The numbers are %f and %f",a,b);
+    printf("%d %d",a,b);
+    
     return 0;
 }
