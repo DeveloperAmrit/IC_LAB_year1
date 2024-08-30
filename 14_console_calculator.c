@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include <math.h>
 
 int main() {
     double a,b;
@@ -27,7 +26,7 @@ int main() {
         printf("%d",(d%e));
         break;
     case '^':
-        printf("%.5f",(pow(a,b)));
+        printf("%.5f",(d^e));
         break;
     case '&':
         printf("%d",(d&e));
