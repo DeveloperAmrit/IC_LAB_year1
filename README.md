@@ -6,11 +6,12 @@ How to enable pasting on moodle :
 >  Paste this whole code in console and press enter
 >  sometimes may ask to type "allow paste" in console, do that and press enter then paste this and press enter
 
-
->var allowCopyAndPaste = function (e) {
->  e.stopImmediatePropagation();
->  return true;
->};
->document.addEventListener("copy", allowCopyAndPaste, true);
->document.addEventListener("paste", allowCopyAndPaste, true);
->document.addEventListener("onpaste", allowCopyAndPaste, true);
+<br>
+<br>
+>var allowCopyAndPaste = function (e) {<br>
+>  e.stopImmediatePropagation();<br>
+>  return true;<br>
+>};<br>
+>document.addEventListener("copy", allowCopyAndPaste, true);<br>
+>document.addEventListener("paste", allowCopyAndPaste, true);<br>
+>document.addEventListener("onpaste", allowCopyAndPaste, true);<br>
