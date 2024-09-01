@@ -1,10 +1,10 @@
 Get all project codes for B.tech 1st year.
-
+<br>
 How to enable pasting on moodle :
 
-> To enable pasting :)
->  Paste this whole code in console and press enter
->  sometimes may ask to type "allow paste" in console, do that and press enter then paste this and press enter
+> To enable pasting :) <br>
+>  Paste this whole code in console and press enter <br>
+>  sometimes may ask to type "allow paste" in console, do that and press enter then paste this and press enter <br>
 
 <br>
 <br>
