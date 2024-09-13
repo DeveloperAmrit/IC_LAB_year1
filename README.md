@@ -1,4 +1,4 @@
-Get all project codes for B.tech 1st year.
+Get all project codes for B.tech 1st year Computer Science lab.
 <br>
 How to enable pasting on moodle :
 
