@@ -1,5 +1,6 @@
 // FIX REQUIRED : UP AND DOWN FOR LOOP RUNNING EXTRA FOR horizontal matrix
 // FIX REQUIRED : LEFT AND RIGHT FOR LOOP RUNNING EXTRA FOR vertical matrix
+// FIX REQUIRED : Last element wrong for 3x3 matrix
 
 #include <stdio.h>
 
