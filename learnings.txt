@@ -1,2 +1,4 @@
 > '\0' has ASCII value of 0
 > if ASCII has atleast one 1, then condition is true
+
+> always use () in trunary operator ()? () : () ;
