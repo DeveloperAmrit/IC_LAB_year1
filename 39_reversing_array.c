@@ -17,3 +17,14 @@ int main(){
         printf("%d ",arr1[i]);
     }
 }
+
+/**
+ * General syntax of reversing
+
+for(int i=0; i<(number of elements to be reversed)/2; i++){
+    int a = arr1[last element index - i];
+    arr1[last element index - i] = arr1[starting element index + i];
+    arr1[starting element index + i] = a;
+}
+
+ */
