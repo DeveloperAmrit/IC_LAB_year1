@@ -1,23 +1,23 @@
 #include <stdio.h>
 
-int reverseByIteration(int);
-int reverseByRecursion_(int,int);
-int reverseByRecursion(int);
+long long int reverseByIteration(long long int);
+long long int reverseByRecursion_(long long int,long long int);
+long long int reverseByRecursion(long long int);
 
-int main(){
-    int n;
-    scanf("%d",&n);
+long long int main(){
+    long long int n;
+    scanf("%lld",&n);
 
-    printf("By iteration we have %d", reverseByIteration(n));
-    printf("\nBy recursion we have %d",reverseByRecursion(n));
+    printf("By iteration we have %lld", reverseByIteration(n));
+    printf("\nBy recursion we have %lld",reverseByRecursion(n));
 }
 
-int reverseByRecursion(int n){
+long long int reverseByRecursion(long long int n){
     return reverseByRecursion_(n,0);
 }
 
 // Helper function
-int reverseByRecursion_(int n,int rn){
+long long int reverseByRecursion_(long long int n,long long int rn){
     if(n==0){
         return rn;
     }
@@ -29,8 +29,8 @@ int reverseByRecursion_(int n,int rn){
 }
 
 
-int reverseByIteration(int n){
-    int rn = 0;
+long long int reverseByIteration(long long int n){
+    long long int rn = 0;
     while(n>0){
         rn = rn*10 + n%10; 
         n = n/10;
