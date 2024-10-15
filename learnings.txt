@@ -2,3 +2,5 @@
 > if ASCII has atleast one 1, then condition is true
 
 > always use () in trunary operator ()? () : () ;
+
+> if you change any value of array in function, it changes the actual array of main
