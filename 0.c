@@ -3,8 +3,7 @@
 #include <stdlib.h>
 
 int main(){
-    char str[100];
-    str[0] = '\0';
+    char str[] = "ouetttttttttttttttttttttttttttcpoeupewcmewpoutpoewtmqwpuoetmqoewptqmwetcuewotq";
     printf("%d",strlen(str));
     return 0;
 }
